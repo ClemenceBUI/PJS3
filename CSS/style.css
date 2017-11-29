@@ -1,0 +1,157 @@
+body{
+  margin:0px;
+}
+/*Style pour le menu*/
+.menu {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    background-color: #202e3b;
+    height: 100px;
+}
+.menu h1{
+    font-size:46px;
+    font-family: Avenir;
+    color:#f6d80a;
+    margin-left:5%;
+    margin-bottom:2px;
+}
+.rubrique{
+  float:right;
+  margin-top:-55px;
+}
+
+.rubrique li{
+    display:inline-block;
+    float:left;
+    margin-right: 1px;
+  
+}
+.rubrique a{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    margin-top: -40px;
+    font-family: "Avenir", Avenir light;
+
+}
+.rubrique a :hover{
+	color: #f6d80a;
+	background-color: #000000;
+}
+
+h3{
+  color:red;
+  padding-top: 235px;
+  font-family: Avenir;
+
+  
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.atouts{
+  background-color:#f6d80a;
+  height: 782px;
+  margin-top:1034px;
+  width:100%;
+  text-align: center;
+}
+
+
+h2{
+  font-size:55px;
+  color:#949494;
+  padding-top:57px;
+  letter-spacing:0.05em;
+  margin:0 auto;
+  
+}
+
+.barre{
+  width:10%;
+  background-color:grey;
+  height:6px;
+  margin:20px auto;
+}
+.GrpAtouts{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:;
+  height:230px;
+  background-color:grey;
+  margin: 0 auto;
+  width:1280px;
+}
+.Atout img  {
+  display: inline-block;
+  float:left;
+  width: 300px;
+  height : 225px;
+  margin: auto 10px;
+}
+.Atout{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  background-color:red;
+}
+.Atout h1 {
+  display: inline-block;
+  float:left;
+  width: 300px;
+  margin:auto 10px;
+}
+.Atout a {
+  display: inline-block;
+  float:left;
+  width: 300px;
+  margin:auto 10px;
+}
+.aPropos{
+  height: 692px;
+  width:100%;
+  text-align: center;
+}
+
+.aPropos .textPr{
+  float:left;
+  width:45%;
+  height:100%;
+  background-color:white;
+}
+.aPropos .imagePr {
+   display: inline-block;
+   background-color: #99E6F3;
+   width:55%;
+   height:100%;
+}
+.chiffres{
+  height: 228px;
+  width:100%;
+  background-color:#f6d80a;
+}
+.incontournables{
+  height: 1295px;
+  width:100%;
+  background-color:#202e3b;
+  text-align:center;
+}
